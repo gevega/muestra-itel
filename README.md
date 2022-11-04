@@ -1,2 +1,0 @@
-# muestra
-# muestra-itel
