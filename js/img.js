@@ -3,8 +3,7 @@ let imagenes = [
     'img1.jpg',
     'img2.jpg',
     'img3.jpg',
-    'img4.jpg',
-    'img5.jpg'
+    'img4.jpg'
 ]
 
 /*Para agregar una imagen tenés que poner una ',' en el último elemento
