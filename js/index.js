@@ -3,20 +3,19 @@ let items = document.getElementById('items')
 let url = self.location.href
 let barra = url.lastIndexOf("/")
 let nombre = url.substring( barra + "/".length , url.length )
+let vp = window.innerWidth
 
 window.addEventListener('load', () => {
     const loader = document.querySelector('.loader')
     loader.style.opacity = 0
     loader.style.visibility = 'hidden'
 
-    let vp = window.innerWidth
-
     if(nombre === 'images.html'){
         if (!(imagenes.length > 5) && vp > 1140) {
             let footer = document.getElementById('footer')
             footer.style.position = 'absolute'
             footer.style.bottom = '0px'
-        } else if (!(imagenes.length > 3) && vp <= 1140) {
+        } else if (!(imagenes.length > 6) && vp <= 1140) {
             let footer = document.getElementById('footer')
             footer.style.position = 'absolute'
             footer.style.bottom = '0px'
