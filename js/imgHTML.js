@@ -1,5 +1,5 @@
 let grid = document.querySelector('.grid-container')
-let selProdu = document.querySelector('.container')
+let selProdu = document.querySelector('body')
 
 selProdu.addEventListener('click', eventList)
 document.addEventListener('DOMContentLoaded', loadSelect())
@@ -31,7 +31,7 @@ function loadSelect() {
     if (localStorage.getItem('select')) {
         const selectLS = JSON.parse(localStorage.getItem('select'))
         if (document.querySelector('#selProdu')) {
-            let content = document.querySelector('#selProdu')
+            let content = document.querySelector('.selBanner')
             selProdu = document.createElement('div')
             selProdu.classList.add('img-content')
             selProdu.innerHTML = `
