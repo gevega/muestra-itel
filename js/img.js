@@ -66,6 +66,7 @@ let imagenes = [
     'img65.jpg',
     'img66.jpg',
     'img67.jpg',
+    'img68.jpg'
 ]
 
 /*Para agregar una imagen tenés que poner una ',' en el último elemento
