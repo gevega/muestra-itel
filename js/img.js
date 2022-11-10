@@ -34,8 +34,24 @@ let imagenes = [
     'img33.jpg',
     'img34.jpg',
     'img35.jpg',
-    'img36.jpg'
-
+    'img36.jpg',
+    'img37.jpg',
+    'img38.jpg',
+    'img39.jpg',
+    'img40.jpg',
+    'img41.jpg',
+    'img42.jpg',
+    'img43.jpg',
+    'img44.jpg',
+    'img45.jpg',
+    'img46.jpg',
+    'img47.jpg',
+    'img48.jpg',
+    'img49.jpg',
+    'img50.jpg',
+    'img51.jpg',
+    'img52.jpg',
+    'img53.jpg'
 ]
 
 /*Para agregar una imagen tenés que poner una ',' en el último elemento
