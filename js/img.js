@@ -6,7 +6,10 @@ let imagenes = [
     'img4.png',
     'img5.jpg',
     'img6.png',
-    'img7.jpg' 
+    'img7.jpg',
+    'img8.jpg',
+    'img9.jpg',
+    'img10.jpg' 
 ]
 
 /*Para agregar una imagen tenés que poner una ',' en el último elemento
