@@ -21,7 +21,6 @@ let imagenes = [
     'img19.jpg',
     'img20.jpg',
     'img21.jpg',
-    'img22.jpg',
     'img23.jpg',
     'img24.jpg',
     'img25.jpg',
