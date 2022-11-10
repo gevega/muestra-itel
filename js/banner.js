@@ -10,8 +10,9 @@ checkNum(num3)
 for (let i = 0; i < 3; i++) {
     const figu_banner = document.createElement('div')
     figu_banner.classList.add('grid-item')
+    console.log(imagenes[numbers[i]])
     figu_banner.innerHTML = `
-            <img src="img/figus/img${numbers[i]}.jpg" alt="" class="grid-img">
+            <img src="img/figus/${imagenes[numbers[i]]}" alt="" class="grid-img">
         `
     banner.appendChild(figu_banner)
 }
